@@ -425,6 +425,10 @@ body {
   margin-block-start: 20px;
 }
 
+.text-typing{
+  height: 50px;
+}
+
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
@@ -485,6 +489,7 @@ body {
   position: relative;
   border-radius: var(--radius-8);
   overflow: hidden;
+  height: 300px;
 }
 
 .project-card::after {
@@ -948,6 +953,11 @@ textarea.input-field {
   .navbar-link {
     color: var(--black);
   }
+
+  .text-typing{
+    height: 100px;
+  }
+  
 }
 
 @media (min-width: 575px) {

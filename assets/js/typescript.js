@@ -27,7 +27,7 @@ class TypeWriter {
       } else if (this.txt === '') {
         this.isDeleting = false;
         this.wordIndex = (this.wordIndex + 1) % this.words.length;
-        typeSpeed = 500;
+        typeSpeed = 300;
       }
   
       await new Promise(resolve => setTimeout(resolve, typeSpeed));
